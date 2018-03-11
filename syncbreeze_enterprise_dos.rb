@@ -21,7 +21,7 @@ class MetasploitModule < Msf::Auxiliary
         [
           [ 'URL', 'https://github.com/EgeBalci/Sync_Breeze_Enterprise_10_6_24_-DOS' ],
         ],
-      'DisclosureDate' => 'Mar 10 2018'))
+      'DisclosureDate' => 'Mar 09 2018'))
 
     register_options(
       [

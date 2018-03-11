@@ -9,7 +9,7 @@
         # Tested on: Windows 7/10
 
 
-This module triggers a Denial of Service vulnerability in the Sync Breeze Enterprise HTTP server. Vulnerability caused by a user mode write access memory violation and can be triggered with rapidly sending variety of HTTP requests with long HTTP header values. Sync Breeze Enterprise 10.6.24 version reportedly vulnerable.
+This module triggers a Denial of Service vulnerability in the Sync Breeze Enterprise HTTP server. After installing the software, web server should be enabled via Options->Server->Enable web server on port. Module triggers a user space write access violation on syncbrs.exe memory region. Number of requests that will crash the server changes between 200-1000 depending on the OS version and system memory. Sync Breeze Enterprise 10.6.24 version reportedly vulnerable.
 
 # Exploits
 
