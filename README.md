@@ -11,7 +11,7 @@
 
 This module triggers a Denial of Service vulnerability in the Sync Breeze Enterprise HTTP server. Vulnerability caused by a user mode write access memory violation and can be triggered with rapidly sending variety of HTTP requests with long HTTP header values. Sync Breeze Enterprise 10.6.24 version reportedly vulnerable.
 
-#Exploits
+# Exploits
 
-[MSF Module](https://github.com/EgeBalci/Sync_Breeze_Enterprise_10_6_24_-DOS/blob/master/syncbreeze_enterprise_dos.rb)
+[MSF Module](https://github.com/EgeBalci/Sync_Breeze_Enterprise_10_6_24_-DOS/blob/master/syncbreeze_enterprise_dos.rb) <br>
 [PYTHON](https://github.com/EgeBalci/Sync_Breeze_Enterprise_10_6_24_-DOS/blob/master/dos.py)
