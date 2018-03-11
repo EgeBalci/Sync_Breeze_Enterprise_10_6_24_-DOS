@@ -12,8 +12,8 @@ class MetasploitModule < Msf::Auxiliary
       'Name'           => 'Sync Breeze Enterprise 10.6.24 Denial Of Service',
       'Description'    => %q{
         This module triggers a Denial of Service vulnerability in the Sync Breeze Enterprise HTTP server.
-        Vulnerability caused by a user mode write access memory violation. By rapidly sending variety of HTTP requests with long header values
-        causes application to crash with a user mode write access memory violation.Sync Breeze Enterprise 10.6.24 version reportedly vulnerable.
+        Vulnerability caused by a user mode write access memory violation and can be triggered with rapidly sending variety of HTTP requests with long HTTP header values.
+        Sync Breeze Enterprise 10.6.24 version reportedly vulnerable.
       },
       'Author' 		=> [ 'Ege Balci <ege.balci@invictuseurope.com>' ],
       'License'        => MSF_LICENSE,
@@ -84,5 +84,3 @@ class MetasploitModule < Msf::Auxiliary
 
   end
 end
-
-#<meta name='Author' content='Flexense HTTP Server v10.6.24'>
