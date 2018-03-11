@@ -15,7 +15,7 @@ print """
 #==============================================#
 # Title: Sync Breeze Enterprise 10.6.24 DOS    #
 # Author: Ege Balcı                            # 
-# Contact: ege.balci[at]invictuseurope[dor]com #
+# Contact: ege.balci[at]invictuseurope[dot]com #
 #==============================================#
 
  """
