@@ -14,6 +14,7 @@ if len(sys.argv) < 2:
 print """
 #==============================================#
 # Title: Sync Breeze Enterprise 10.6.24 DOS    #
+# CVE:2018-8065                                #
 # Author: Ege Balcı                            # 
 # Contact: ege.balci[at]invictuseurope[dot]com #
 #==============================================#
